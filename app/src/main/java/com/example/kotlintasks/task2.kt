@@ -28,16 +28,6 @@ fun main() {
             formTree(inputList,node)
         }
     }
-    println("[")
-    ansList.forEach {
-        node ->
-        println("id = ${node.id}")
-        println("name = ${node.name}")
-        println("parent = ${node.parent}")
-        println("children = ${node.children}")
-        println(",")
-    }
-    println("]")
 }
 
 fun formTree(inputList: List<Node>, node: Node){
