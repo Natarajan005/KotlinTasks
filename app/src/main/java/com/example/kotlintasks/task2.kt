@@ -18,6 +18,7 @@ fun main() {
         Node(id= 7, name= "Node G", parent= 6),
         Node(id= 8, name= "Node H", parent= 1),
         Node(id= 9, name= "Node I", parent= null),
+        Node(id= 10, name= "Node J", parent= null),
     )
     val ansList = mutableListOf<Node>()
     inputList.forEach {
